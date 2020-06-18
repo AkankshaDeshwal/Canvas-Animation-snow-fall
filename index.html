@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas animation</title>
+    <style>
+      canvas {
+        border: 2px solid blue;
+        background-color: #9fcaee;
+      }
+      #vd_block {
+        position: absolute;
+        top: 50px;
+        left: 300px;
+      }
+      #vd {
+        width: 900px;
+        height: 600px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas1"> </canvas>
+    <div id="vd_block">
+      <video id="vd" controls autoplay muted>
+        <source src="xmas.mp4" />
+      </video>
+    </div>
+    <script src="fallEffect.js"></script>
+  </body>
+</html>
